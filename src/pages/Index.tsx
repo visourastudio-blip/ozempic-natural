@@ -193,6 +193,10 @@ const Index = () => {
 
           {/* Fitness results gallery */}
           <motion.div {...fadeUp} className="max-w-2xl mx-auto mb-16">
+            <div className="text-center mb-4">
+              <p className="text-xl font-semibold">Jaqueline</p>
+              <p className="text-muted-foreground">92kg → 66kg</p>
+            </div>
             <div className="rounded-outer overflow-hidden group">
               <img
                 src={beforeAfter}

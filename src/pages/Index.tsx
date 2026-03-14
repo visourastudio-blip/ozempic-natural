@@ -133,7 +133,7 @@ const Index = () => {
                 onClick={scrollToOffer}
                 className="px-8 py-4 rounded-pill bg-primary text-primary-foreground font-semibold shadow-elevated hover:shadow-primary/20 transition-all active:scale-95 will-change-transform text-lg"
               >
-                Comprar Agora
+                Quero Começar Minha Transformação
               </button>
               <div>
                 <div className="text-2xl font-bold">R$ 97,00</div>

@@ -18,9 +18,8 @@ import productBottles from "@/assets/product-bottles.jpeg";
 import productSingle from "@/assets/product-single.png";
 import productCapsules from "@/assets/product-capsules.jpg";
 import productLifestyle from "@/assets/product-lifestyle.jpg";
-import fitnessWoman1 from "@/assets/fitness-woman-1.jpg";
-import fitnessWoman2 from "@/assets/fitness-woman-2.jpg";
-import fitnessWoman3 from "@/assets/fitness-woman-3.jpg";
+import beforeAfter from "@/assets/before-after.jpeg";
+import productBottleNew from "@/assets/product-bottle-new.jpeg";
 import avatarCarla from "@/assets/avatar-carla.jpg";
 import avatarRoberto from "@/assets/avatar-roberto.jpg";
 import avatarAna from "@/assets/avatar-ana.webp";
@@ -137,8 +136,8 @@ const Index = () => {
               </button>
               <div>
                 <div className="text-2xl font-bold">R$ 97,00</div>
-                <div className="text-sm text-primary font-medium flex items-center gap-1">
-                  <CheckCircle2 size={14} /> Frete Grátis para todo Brasil
+                <div className="text-sm text-primary font-medium mt-1">
+                  Frete Grátis para todo Brasil — entrega em 5 a 10 dias úteis
                 </div>
               </div>
             </div>
@@ -193,24 +192,15 @@ const Index = () => {
           </motion.div>
 
           {/* Fitness results gallery */}
-          <motion.div {...fadeUp} className="grid grid-cols-3 gap-4 max-w-3xl mx-auto mb-16">
-            {[
-              { src: fitnessWoman1, alt: "Resultado fitness - corpo em forma" },
-              { src: fitnessWoman2, alt: "Resultado fitness - vida saudável" },
-              { src: fitnessWoman3, alt: "Resultado fitness - transformação" },
-            ].map((img, i) => (
-              <div
-                key={i}
-                className="aspect-[3/4] rounded-outer overflow-hidden group"
-              >
-                <img
-                  src={img.src}
-                  alt={img.alt}
-                  className="w-full h-full object-cover transition-transform duration-500 group-hover:scale-110"
-                  loading="lazy"
-                />
-              </div>
-            ))}
+          <motion.div {...fadeUp} className="max-w-2xl mx-auto mb-16">
+            <div className="rounded-outer overflow-hidden group">
+              <img
+                src={beforeAfter}
+                alt="Resultado real - antes e depois da transformação"
+                className="w-full h-full object-cover transition-transform duration-500 group-hover:scale-105"
+                loading="lazy"
+              />
+            </div>
           </motion.div>
 
           {/* Problem list */}
@@ -296,7 +286,7 @@ const Index = () => {
               { src: productBottles, alt: "3 frascos Ozempic Natural" },
               { src: productSingle, alt: "Frasco individual" },
               { src: productCapsules, alt: "Cápsulas do suplemento" },
-              { src: productLifestyle, alt: "Estilo de vida saudável" },
+              { src: productBottleNew, alt: "Frasco Ozempic Natural" },
             ].map((img, i) => (
               <motion.div
                 key={i}

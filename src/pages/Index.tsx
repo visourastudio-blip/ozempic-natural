@@ -136,8 +136,8 @@ const Index = () => {
               </button>
               <div>
                 <div className="text-2xl font-bold">R$ 97,00</div>
-                <div className="text-sm text-primary font-medium flex items-center gap-1">
-                  <CheckCircle2 size={14} /> Frete Grátis para todo Brasil
+                <div className="text-sm text-primary font-medium mt-1">
+                  Frete Grátis para todo Brasil — entrega em 5 a 10 dias úteis
                 </div>
               </div>
             </div>

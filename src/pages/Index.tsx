@@ -192,24 +192,15 @@ const Index = () => {
           </motion.div>
 
           {/* Fitness results gallery */}
-          <motion.div {...fadeUp} className="grid grid-cols-3 gap-4 max-w-3xl mx-auto mb-16">
-            {[
-              { src: fitnessWoman1, alt: "Resultado fitness - corpo em forma" },
-              { src: fitnessWoman2, alt: "Resultado fitness - vida saudável" },
-              { src: fitnessWoman3, alt: "Resultado fitness - transformação" },
-            ].map((img, i) => (
-              <div
-                key={i}
-                className="aspect-[3/4] rounded-outer overflow-hidden group"
-              >
-                <img
-                  src={img.src}
-                  alt={img.alt}
-                  className="w-full h-full object-cover transition-transform duration-500 group-hover:scale-110"
-                  loading="lazy"
-                />
-              </div>
-            ))}
+          <motion.div {...fadeUp} className="max-w-2xl mx-auto mb-16">
+            <div className="rounded-outer overflow-hidden group">
+              <img
+                src={beforeAfter}
+                alt="Resultado real - antes e depois da transformação"
+                className="w-full h-full object-cover transition-transform duration-500 group-hover:scale-105"
+                loading="lazy"
+              />
+            </div>
           </motion.div>
 
           {/* Problem list */}

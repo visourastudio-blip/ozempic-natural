@@ -20,6 +20,7 @@ import productCapsules from "@/assets/product-capsules.jpg";
 import productLifestyle from "@/assets/product-lifestyle.jpg";
 import beforeAfter from "@/assets/before-after.jpeg";
 import productBottleNew from "@/assets/product-bottle-new.jpeg";
+import productBottleUser from "@/assets/product-bottle-user.jpeg";
 import avatarCarla from "@/assets/avatar-carla.jpg";
 import avatarRoberto from "@/assets/avatar-roberto.jpg";
 import avatarAna from "@/assets/avatar-ana.webp";
@@ -283,7 +284,7 @@ const Index = () => {
               { src: productBottles, alt: "3 frascos Ozempic Natural" },
               { src: productSingle, alt: "Frasco individual" },
               { src: productCapsules, alt: "Cápsulas do suplemento" },
-              { src: productBottleNew, alt: "Frasco Ozempic Natural" },
+              { src: productBottleUser, alt: "Frasco Ozempic Natural com tampa verde" },
             ].map((img, i) => (
               <motion.div
                 key={i}

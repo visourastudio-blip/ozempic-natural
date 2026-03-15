@@ -20,6 +20,7 @@ import productCapsules from "@/assets/product-capsules.jpg";
 import productLifestyle from "@/assets/product-lifestyle.jpg";
 import beforeAfter from "@/assets/before-after.jpeg";
 import productBottleNew from "@/assets/product-bottle-new.jpeg";
+import productBottleUser from "@/assets/product-bottle-user.jpeg";
 import avatarCarla from "@/assets/avatar-carla.jpg";
 import avatarRoberto from "@/assets/avatar-roberto.jpg";
 import avatarAna from "@/assets/avatar-ana.webp";

@@ -284,7 +284,7 @@ const Index = () => {
               { src: productBottles, alt: "3 frascos Ozempic Natural" },
               { src: productSingle, alt: "Frasco individual" },
               { src: productCapsules, alt: "Cápsulas do suplemento" },
-              { src: productBottleNew, alt: "Frasco Ozempic Natural" },
+              { src: productBottleUser, alt: "Frasco Ozempic Natural com tampa verde" },
             ].map((img, i) => (
               <motion.div
                 key={i}

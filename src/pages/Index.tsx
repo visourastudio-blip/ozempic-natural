@@ -552,7 +552,7 @@ const Index = () => {
         >
           {[
             {
-              img: productSingle,
+              img: productBottleFront,
               title: "1 Ozempic Natural",
               days: "30 dias",
               originalPrice: "R$ 197,00",
@@ -560,19 +560,19 @@ const Index = () => {
               highlight: false,
             },
             {
-              img: productBottles,
+              img: productBottlesDuo,
               title: "2 Ozempic Natural",
               days: "60 dias",
               originalPrice: "R$ 394,00",
-              price: "R$ 179,00",
+              price: "R$ 197,00",
               highlight: true,
             },
             {
-              img: productCapsules,
+              img: productBottlesTrio,
               title: "3 Ozempic Natural",
               days: "90 dias",
               originalPrice: "R$ 591,00",
-              price: "R$ 270,00",
+              price: "R$ 297,00",
               highlight: false,
             },
           ].map((offer, i) => (

@@ -19,8 +19,10 @@ import productSingle from "@/assets/product-single.png";
 import productCapsules from "@/assets/product-capsules.jpg";
 import productLifestyle from "@/assets/product-lifestyle.jpg";
 import beforeAfter from "@/assets/before-after.jpeg";
-import productBottleNew from "@/assets/product-bottle-new.jpeg";
 import productBottleUser from "@/assets/product-bottle-user.jpeg";
+import offerKit1 from "@/assets/offer-kit-1.jpeg";
+import offerKit2 from "@/assets/offer-kit-2.jpeg";
+import offerKit3 from "@/assets/offer-kit-3.jpeg";
 import avatarCarla from "@/assets/avatar-carla.jpg";
 import avatarRoberto from "@/assets/avatar-roberto.jpg";
 import avatarAna from "@/assets/avatar-ana.webp";
@@ -549,7 +551,7 @@ const Index = () => {
         >
           {[
             {
-              img: productSingle,
+              img: offerKit1,
               title: "1 Ozempic Natural",
               days: "30 dias",
               originalPrice: "R$ 197,00",
@@ -557,19 +559,19 @@ const Index = () => {
               highlight: false,
             },
             {
-              img: productBottles,
+              img: offerKit2,
               title: "2 Ozempic Natural",
               days: "60 dias",
               originalPrice: "R$ 394,00",
-              price: "R$ 179,00",
+              price: "R$ 197,00",
               highlight: true,
             },
             {
-              img: productCapsules,
+              img: offerKit3,
               title: "3 Ozempic Natural",
               days: "90 dias",
               originalPrice: "R$ 591,00",
-              price: "R$ 270,00",
+              price: "R$ 297,00",
               highlight: false,
             },
           ].map((offer, i) => (

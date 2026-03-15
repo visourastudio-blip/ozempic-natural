@@ -149,8 +149,8 @@ const Index = () => {
           >
             <div className="aspect-square bg-gradient-to-br from-primary/10 to-accent/20 rounded-[3rem] overflow-hidden flex items-center justify-center p-8">
               <motion.img
-                src={productBottles}
-                alt="Ozempic Natural - 3 frascos do suplemento"
+                src={productBottleFront}
+                alt="Ozempic Natural - frasco do suplemento"
                 className="w-full h-full object-contain drop-shadow-2xl"
                 whileHover={{ scale: 1.05 }}
                 transition={{ duration: 0.4, ease }}

@@ -20,6 +20,10 @@ import productCapsules from "@/assets/product-capsules.jpg";
 import productLifestyle from "@/assets/product-lifestyle.jpg";
 import beforeAfter from "@/assets/before-after.jpeg";
 import productBottleNew from "@/assets/product-bottle-new.jpeg";
+import productBottleFront from "@/assets/product-bottle-front.jpeg";
+import productBottleLifestyle from "@/assets/product-bottle-lifestyle.jpeg";
+import productBottlesDuo from "@/assets/product-bottles-duo.jpeg";
+import productBottlesTrio from "@/assets/product-bottles-trio.jpeg";
 import avatarCarla from "@/assets/avatar-carla.jpg";
 import avatarRoberto from "@/assets/avatar-roberto.jpg";
 import avatarAna from "@/assets/avatar-ana.webp";
@@ -145,8 +149,8 @@ const Index = () => {
           >
             <div className="aspect-square bg-gradient-to-br from-primary/10 to-accent/20 rounded-[3rem] overflow-hidden flex items-center justify-center p-8">
               <motion.img
-                src={productBottles}
-                alt="Ozempic Natural - 3 frascos do suplemento"
+                src={productBottleFront}
+                alt="Ozempic Natural - frasco do suplemento"
                 className="w-full h-full object-contain drop-shadow-2xl"
                 whileHover={{ scale: 1.05 }}
                 transition={{ duration: 0.4, ease }}
@@ -548,7 +552,7 @@ const Index = () => {
         >
           {[
             {
-              img: productSingle,
+              img: productBottleFront,
               title: "1 Ozempic Natural",
               days: "30 dias",
               originalPrice: "R$ 197,00",
@@ -556,19 +560,19 @@ const Index = () => {
               highlight: false,
             },
             {
-              img: productBottles,
+              img: productBottlesDuo,
               title: "2 Ozempic Natural",
               days: "60 dias",
               originalPrice: "R$ 394,00",
-              price: "R$ 179,00",
+              price: "R$ 197,00",
               highlight: true,
             },
             {
-              img: productCapsules,
+              img: productBottlesTrio,
               title: "3 Ozempic Natural",
               days: "90 dias",
               originalPrice: "R$ 591,00",
-              price: "R$ 270,00",
+              price: "R$ 297,00",
               highlight: false,
             },
           ].map((offer, i) => (

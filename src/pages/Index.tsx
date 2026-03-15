@@ -79,15 +79,8 @@ const Index = () => {
           <span className="font-bold text-xl tracking-tight">
             Ozempic<span className="text-primary">Natural</span>
           </span>
-          <a
-            href={whatsappUrl}
-            target="_blank"
-            rel="noopener noreferrer"
-            className="flex items-center gap-2 px-4 py-2 rounded-pill bg-[#25D366] text-white font-semibold text-sm hover:brightness-110 transition-all active:scale-95"
-          >
-            <WhatsAppIcon size={20} />
-            <span className="hidden sm:inline">WhatsApp</span>
-          </a>
+          <div />
+
         </div>
       </nav>
 
@@ -651,6 +644,19 @@ const Index = () => {
               <span>{item.label}</span>
             </div>
           ))}
+        </motion.div>
+
+        {/* WhatsApp Button */}
+        <motion.div {...fadeUp} className="flex justify-center mt-8">
+          <a
+            href={whatsappUrl}
+            target="_blank"
+            rel="noopener noreferrer"
+            className="flex items-center gap-3 px-8 py-4 rounded-pill bg-[#25D366] text-white font-semibold text-lg hover:brightness-110 transition-all active:scale-95 shadow-elevated"
+          >
+            <WhatsAppIcon size={24} />
+            WhatsApp
+          </a>
         </motion.div>
       </section>
 
